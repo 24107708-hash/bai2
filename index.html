@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Khung hiển thị ảnh lớn và thông báo -->
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <!-- Danh sách ảnh xem trước (Thumbnails) -->
+    <img class="preview" 
+         alt="Stylized image of a puppy" 
+         src="anhcho.jpg" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+    <img class="preview" 
+         alt="Stylized image of a cat" 
+         src="anhmeo.jpg" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+    <img class="preview" 
+         alt="Stylized image of a bird" 
+         src="anhcon.jpg" 
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+</body>
+</html>
